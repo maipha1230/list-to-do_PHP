@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 120%;
+    background-color: #080c14;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%230070e2' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");   
+}
+
+.head_listtodo {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: #ecf0f1;
+    background: none;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    font-size: 40px;
+
+}
+.header {
+    font-size: 32px;
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #130f40;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px; 
+    padding: 20px;
+}
+.header-list {
+    font-size: 20px;
+    width: 60%;
+    margin: 20px auto 0px;
+    color: white;
+    background: #130f40;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px; 
+    padding: 20px;
+}
+
+.form-rl {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.todo-form{
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    
+}
+
+.edit-form{
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    
+}
+
+.content {
+    width: 60%;
+    height: auto;
+    margin: 0 auto ;
+    padding: 20px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+
+}
+
+.input-group {
+    margin: 10px 0 10px 0;
+
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input-todo {
+    margin: 10px auto 10px;
+    justify-content: center;
+    text-align:center;
+    display: inline-block;
+
+}
+
+.input-todo label{
+    margin-bottom: 10px  ;
+    display: inline-block;
+    text-align: left;
+    margin: 3px;
+    justify-content: center;
+}
+
+
+.input-todo input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    justify-content: center;
+    display: inline-block;
+}
+
+
+
+.task {
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: white;
+}
+
+
+.wrapper-high{
+    justify-content: center;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    background: #ff7979;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.wrapper-low{
+    justify-content: center;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    background: #6ab04c;
+    margin-top: 10px;
+
+}
+
+
+
+ .error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+} 
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solud #3c763d;
+    margin-bottom: 20px ;
+}
+
+.finish-history {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    background:#2ed573;
+
+}
+.expire-history {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    background:#ff6b81;
+
+}
+.wrapper-history {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 10px;
+}
+
+.task-history {
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color:white;
+    
+}
+
